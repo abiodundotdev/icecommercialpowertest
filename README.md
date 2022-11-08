@@ -31,7 +31,7 @@ flutter test
 > IMAGES
 | col 1      | col 2      |
 |------------|-------------|
-| <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/dashboard.png?raw=true"  width= "100px" height ="100px" /> | <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/cart.png?raw=true" />|
+| <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/dashboard.png?raw=true"  width= "300px" height ="300px" /> | <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/cart.png?raw=true" />|
  | <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/dashboard.png?raw=true" />
  | <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/cart.png?raw=true" />
 <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/login.png?raw=true" />
