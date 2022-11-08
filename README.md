@@ -1,4 +1,4 @@
-# icecommercialpowertest
+# ICECOMMERCIALPOWER
 
 A Flutter project for ICE POWER TEST
 
@@ -28,3 +28,10 @@ flutter packages pub run build_runner build
 ```
 flutter test
 ```
+> IMAGES
+<img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/dashboard.png?raw=true" />
+<img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/cart.png?raw=true" />
+<img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/login.png?raw=true" />
+<img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/register.png?raw=true" />
+
+
