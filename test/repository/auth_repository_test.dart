@@ -1,20 +1,17 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:icecommercialpowertest/core/exceptions.dart';
-import 'package:icecommercialpowertest/data/repository/repository.dart';
 import 'package:icecommercialpowertest/domain/domain.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
 import 'auth_repository_test.mocks.dart';
 
-@GenerateMocks([Dio, AuthRepositoryImplement, ResponseException])
+@GenerateMocks([AuthRepository])
 void main() {
-  late MockAuthRepositoryImplement authRepository;
-  //MockDio mockDio = MockDio();
-
+  late MockAuthRepository authRepository;
   setUp(() {
-    authRepository = MockAuthRepositoryImplement();
+    authRepository = MockAuthRepository();
   });
 
   group("Auth repoitory test", () {

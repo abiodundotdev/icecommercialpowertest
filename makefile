@@ -66,3 +66,5 @@ run_production_app:
 	flutter run --flavor prod --dart-define=env.mode=prod
 
 #run test
+run_integration_test:
+	flutter drive --driver=test_driver/integration_test.dart --target=integration_test/app_integration_test.dart

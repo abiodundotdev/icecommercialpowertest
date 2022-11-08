@@ -13,11 +13,11 @@ import '../repository/store_repository_test.mocks.dart';
 @GenerateMocks([Dio, StoreRepositoryImplement])
 void main() {
   late MockCartBloc cartBloc;
-  late MockStoreRepositoryImplement storeRepository;
+  late MockStoreRepository storeRepository;
   late StoreUseCases storeUseCases;
   setUp(() {
     cartBloc = MockCartBloc();
-    storeRepository = MockStoreRepositoryImplement();
+    storeRepository = MockStoreRepository();
     storeUseCases = StoreUseCases(repository: storeRepository);
   });
 

@@ -14,11 +14,11 @@ import '../repository/store_repository_test.mocks.dart';
 @GenerateMocks([Dio, StoreRepositoryImplement])
 void main() {
   late MockDashboardBloc dashboardBloc;
-  late MockStoreRepositoryImplement storeRepository;
+  late MockStoreRepository storeRepository;
   late StoreUseCases storeUseCases;
   setUp(() {
     dashboardBloc = MockDashboardBloc();
-    storeRepository = MockStoreRepositoryImplement();
+    storeRepository = MockStoreRepository();
     storeUseCases = StoreUseCases(repository: storeRepository);
   });
 

@@ -8,12 +8,12 @@ import 'package:mockito/mockito.dart';
 
 import 'store_repository_test.mocks.dart';
 
-@GenerateMocks([Dio, StoreRepositoryImplement, ResponseException])
+@GenerateMocks([StoreRepository])
 void main() {
-  late MockStoreRepositoryImplement storeRepository;
+  late MockStoreRepository storeRepository;
 
   setUp(() {
-    storeRepository = MockStoreRepositoryImplement();
+    storeRepository = MockStoreRepository();
   });
 
   group("Store repoitory test", () {

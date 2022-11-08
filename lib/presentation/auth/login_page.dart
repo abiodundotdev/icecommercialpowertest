@@ -42,7 +42,6 @@ class _LoginPageState extends State<LoginPage> with AuthUseCases {
                   width: 50.h,
                   height: 70.h,
                 ),
-                //  AppLogo(),
                 Gap(10.0.h),
                 Text(
                   "Log in",
@@ -52,6 +51,7 @@ class _LoginPageState extends State<LoginPage> with AuthUseCases {
                 ),
                 Gap(10.0.h),
                 TextFormField(
+                  key: const Key("usernameInput"),
                   initialValue: !Env.mode.isProduction ? "mor_2314" : "",
                   validator: Validators.tryString(),
                   decoration: InputDecoration(
@@ -64,6 +64,7 @@ class _LoginPageState extends State<LoginPage> with AuthUseCases {
                 Gap(10.0.h),
                 TextFormField(
                   initialValue: !Env.mode.isProduction ? "83r5^_" : "",
+                  key: const Key("passwordInput"),
                   obscureText: true,
                   onSaved: (val) => loginRequestData.password = val,
                   validator: Validators.tryString(),
@@ -81,10 +82,11 @@ class _LoginPageState extends State<LoginPage> with AuthUseCases {
                       "Forget password ?",
                       style: Theme.of(context).textTheme.subtitle2!,
                     ),
-                    onPressed: () => print("object"),
+                    onPressed: null,
                   ),
                 ),
                 ContainedButton(
+                  key: const Key("signIn"),
                   text: "Log in",
                   onTap: handleSubmit,
                 ),
