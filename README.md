@@ -4,7 +4,7 @@ A Flutter project for ICE POWER TEST
 
 ## Getting Started
 
-This project for ICE COMMERCIAL POWER - assessment
+This repository is for ICE COMMERCIAL POWER  Assessment
 
 ### The codes follow the SOLID design principles with BLOC design pattern
 
@@ -16,12 +16,13 @@ A few resources to get you started if this is your first Flutter project:
 ## Core Packages used
 - Freezed (For source genetated files) [Models, Seealed Class,Test Mock Classes]
 - Flutter Bloc (For state management)
-- Bloc test ( To tes the blocs used in the app)
+- Bloc test ( To test the blocs used in the app)
 
-> To run the project run command below:
+> To run the code run command below:
 ```
+flutter pub get
 flutter packages pub run build_runner build
-
+flutter run
 ```
 
 > To run the the test run:
