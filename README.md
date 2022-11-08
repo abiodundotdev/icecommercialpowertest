@@ -1,16 +1,40 @@
-# icecommercialpowertest
+# ICECOMMERCIALPOWER
 
-A new Flutter project.
+A Flutter project for ICE POWER TEST
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project for ICE COMMERCIAL POWER - assessment
+
+### The codes follow the SOLID design principles with BLOC design pattern
 
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Core Packages used
+- Freezed (For source genetated files) [Models, Seealed Class,Test Mock Classes]
+- Flutter Bloc (For state management)
+- Bloc test ( To tes the blocs used in the app)
+
+> To run the project run command below:
+```
+flutter packages pub run build_runner build
+
+```
+
+> To run the the test run:
+```
+flutter test
+```
+> IMAGES
+| col 1      | col 2      |
+|------------|-------------|
+| <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/dashboard.png?raw=true" /> | <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/cart.png?raw=true" />|
+ | <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/dashboard.png?raw=true" />
+ | <img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/cart.png?raw=true" />
+<img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/login.png?raw=true" />
+<img src="https://raw.githubusercontent.com/abiodundotdev/icecommercialpowertest/master/docimg/register.png?raw=true" />
+
+
