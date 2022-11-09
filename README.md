@@ -17,6 +17,8 @@ A few resources to get you started if this is your first Flutter project:
 - Freezed (For source genetated files) [Models, Seealed Class,Test Mock Classes]
 - Flutter Bloc (For state management)
 - Bloc test ( To test the blocs used in the app)
+- Mockito ( To create mock class)
+
 
 > To run the code run command below:
 ```
